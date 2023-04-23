@@ -1,0 +1,70 @@
+/* html elements */
+h1 {
+    font-family: 'Lobster';
+    font-weight: 900 !important;
+    font-size: 5rem !important;
+}
+
+span {
+    font-family: 'Pacifico';
+    font-size: 2rem !important;
+}
+
+/* html elements ends */
+
+
+/* title section */
+#Title {
+    text-align: center;
+    margin-top: 3%;
+}
+
+/* title section ends */
+
+
+
+/* players section */
+#Players {
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* players section ends */
+
+
+
+/* Dice section */
+#Dice {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.container-fluid {
+    padding: 0 7% !important;
+}
+
+.c-1,
+.c-2,
+.c-3,
+.c-4,
+.c-5,
+.c-6,
+.c-7 {
+    border-radius: 100%;
+    /* margin: 0 2%; */
+    height: 25vw !important;
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+    text-align: center;
+    padding: 3%;
+}
+
+
+/* Dice section ends */
+
+
+
+/* media query */
+
+/* media query ends */
