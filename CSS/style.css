@@ -25,22 +25,46 @@ span {
 
 /* players section */
 #Players {
-    text-align: center;
+    /* text-align: center; */
     margin-top: 5%;
 }
 
+.p1 {
+    margin-left: -16rem;
+}
+
+.p2{
+    margin-left: 22rem;
+}
 /* players section ends */
 
 
 
-/* Dice section */
-#Dice {
+/* Dice-1 section */
+#Dice-1 {
+    background-color: #E74646;
+    padding: 5% 3%;
+    position: relative;
     text-align: center;
     margin-top: 2%;
+    /* margin-left: 15%; */
+}
+
+#Dice-2 {
+    position: relative;
+    left: 700px;
+    top: -307.5px;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 15%;
 }
 
 .container-fluid {
     padding: 0 7% !important;
+}
+
+.row {
+    padding: 0% 35%;
 }
 
 .c-1,
@@ -52,9 +76,10 @@ span {
 .c-7 {
     border-radius: 100%;
     /* margin: 0 2%; */
-    height: 25vw !important;
+    height: 3vw !important;
+    width: 3vw !important;
     background-color: #fff;
-    border: 2px solid #000;
+    border: 2px solid #fff;
     color: #000;
     text-align: center;
     padding: 3%;
